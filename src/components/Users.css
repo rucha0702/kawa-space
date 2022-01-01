@@ -1,0 +1,8 @@
+.container-flex {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fix-width {
+  width: 17rem;
+}
