@@ -46,11 +46,11 @@ function Users() {
     return (
     <div>
         <div className="d-flex flex-column align-items-center">
-            <div className="d-flex bg-light p-5 rounded profile-container justify-content-center my-5">
-                <div><img className="rounded-circle profile-img" src={user.profile} alt="img" /></div>
+            <div className="d-flex bg-light rounded profile-container justify-content-center my-5">
+               <img className="rounded-circle profile-img mx-5" src={user.profile} alt="img" />
               <div className="d-flex flex-column align-items-start">
                   <div className="text-danger bolder text-decoration-underline h1">{user.name}</div>
-                  <div className="d-flex"><div className="street">{user.streetNumber}, </div><div>{user.address}</div><div className="bolder">{user.country}</div><div>{user.postcode}</div></div>
+                  <div className="d-flex address"><div className="street">{user.streetNumber}, </div><div>{user.address}</div><div className="bolder">{user.country}</div><div>{user.postcode}</div></div>
                   <div>{user.timezone}</div>
                   <div className="text-secondary">{user.gender}</div>
               </div>
